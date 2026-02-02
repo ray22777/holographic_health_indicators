@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "better_damage_indicator",
+  "version": "${version}",
+  "name": "Better Damage Indicator",
+  "description": "Add client-sided, highly customizable, health indicators for entities.",
+  "authors": [
+    "ray"
+  ],
+  "contact": {
+    "sources": "https://github.com/ray22777/holographic-health-indicators"
+  },
+  "license": "MIT",
+  "icon": "assets/holographic_health_indicators/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.ray.healthindicators.fabric.BetterDamageIndicator"
+    ],
+    "client": [
+      "net.ray.healthindicators.fabric.client.BetterDamageIndicatorClient"
+    ],
+    "modmenu": [
+      "net.ray.healthindicators.fabric.ModMenuIntegration"
+    ]
+  },
+  "mixins": [
+    "holographic_health_indicators.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": "*",
+    "minecraft": ">=1.20",
+    "java": ">=21",
+    "fabric-api": "*",
+    "cloth-config": "*",
+    "hologram_api": "*"
+  },
+  "suggests": {
+    "modmenu": "*"
+  }
+}
