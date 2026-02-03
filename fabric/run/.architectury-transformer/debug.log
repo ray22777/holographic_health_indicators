@@ -112,26 +112,68 @@
 [Architectury Transformer DEBUG]  - C:\Users\Ray\Documents\ModDevNew\Holographic Health Indicators\holographic_health_indicators-1.20.4-fabric-neoforge-forge-template\.gradle\loom-cache\remapped_mods\remapped\net\fabricmc\fabric-api\fabric-transitive-access-wideners-v1-b0e0382d\5.0.15+78d798af4f\fabric-transitive-access-wideners-v1-b0e0382d-5.0.15+78d798af4f.jar
 [Architectury Transformer DEBUG]  - C:\Users\Ray\Documents\ModDevNew\Holographic Health Indicators\holographic_health_indicators-1.20.4-fabric-neoforge-forge-template\.gradle\loom-cache\remapped_mods\remapped\me\shedaniel\cloth\cloth-config-fabric-b0e0382d\13.0.138\cloth-config-fabric-b0e0382d-13.0.138-fabric.jar
 [Architectury Transformer DEBUG]  - C:\Users\Ray\Documents\ModDevNew\Holographic Health Indicators\holographic_health_indicators-1.20.4-fabric-neoforge-forge-template\.gradle\loom-cache\remapped_mods\remapped\me\shedaniel\cloth\basic-math-b0e0382d\0.6.1\basic-math-b0e0382d-0.6.1.jar
-[Architectury Transformer DEBUG]  - C:\Users\Ray\Documents\ModDevNew\Holographic Health Indicators\holographic_health_indicators-1.20.4-fabric-neoforge-forge-template\.gradle\loom-cache\remapped_mods\remapped\unspecified\hologram_api-fabric-1.0.2 1.20.1-b0e0382d\d297454b13\hologram_api-fabric-1.0.2 1.20.1-b0e0382d-d297454b13.jar
+[Architectury Transformer DEBUG]  - C:\Users\Ray\Documents\ModDevNew\Holographic Health Indicators\holographic_health_indicators-1.20.4-fabric-neoforge-forge-template\.gradle\loom-cache\remapped_mods\remapped\unspecified\hologram_api-fabric-1.1.0 1.20.1-b0e0382d\f586d66c53\hologram_api-fabric-1.1.0 1.20.1-b0e0382d-f586d66c53.jar
 [Architectury Transformer DEBUG]  - C:\Users\Ray\Documents\ModDevNew\Holographic Health Indicators\holographic_health_indicators-1.20.4-fabric-neoforge-forge-template\.gradle\loom-cache\remapped_mods\remapped\com\terraformersmc\modmenu-b0e0382d\11.0.3\modmenu-b0e0382d-11.0.3.jar
-[Architectury Transformer] Read classpath in 1.412 s
+[Architectury Transformer] Read classpath in 1.365 s
 [Architectury Transformer DEBUG] Closed File Systems for C:\Users\Ray\Documents\ModDevNew\Holographic Health Indicators\holographic_health_indicators-1.20.4-fabric-neoforge-forge-template\common\build\devlibs\holographic_health_indicators-common-1.0.0-dev.jar
-[Architectury Transformer DEBUG] Transforming 5 transformer(s) from C:\Users\Ray\Documents\ModDevNew\Holographic Health Indicators\holographic_health_indicators-1.20.4-fabric-neoforge-forge-template\common\build\devlibs\holographic_health_indicators-common-1.0.0-dev.jar to C:\Users\Ray\AppData\Local\Temp\6699829920201175269.jar: 
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RuntimeMixinRefmapDetector@553a3d88
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.GenerateFakeFabricMod@7a30d1e6
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformExpectPlatform@5891e32e
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables@cb0ed20
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformPlatformOnly@8e24743
-[Architectury Transformer DEBUG] Transforming from C:\Users\Ray\Documents\ModDevNew\Holographic Health Indicators\holographic_health_indicators-1.20.4-fabric-neoforge-forge-template\common\build\devlibs\holographic_health_indicators-common-1.0.0-dev.jar to C:\Users\Ray\AppData\Local\Temp\6699829920201175269.jar with 5 transformer(s) on dev.architectury.transformer.handler.SimpleTransformerHandler
+[Architectury Transformer DEBUG] Transforming 5 transformer(s) from C:\Users\Ray\Documents\ModDevNew\Holographic Health Indicators\holographic_health_indicators-1.20.4-fabric-neoforge-forge-template\common\build\devlibs\holographic_health_indicators-common-1.0.0-dev.jar to C:\Users\Ray\AppData\Local\Temp\453521284738221558.jar: 
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RuntimeMixinRefmapDetector@1786f9d5
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.GenerateFakeFabricMod@704d6e83
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformExpectPlatform@43a0cee9
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables@eb21112
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformPlatformOnly@2eda0940
+[Architectury Transformer DEBUG] Transforming from C:\Users\Ray\Documents\ModDevNew\Holographic Health Indicators\holographic_health_indicators-1.20.4-fabric-neoforge-forge-template\common\build\devlibs\holographic_health_indicators-common-1.0.0-dev.jar to C:\Users\Ray\AppData\Local\Temp\453521284738221558.jar with 5 transformer(s) on dev.architectury.transformer.handler.SimpleTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing net/ray/healthindicators/ExampleMod with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/ray/healthindicators/ComponentUtilsParser with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/ray/healthindicators/config/ConfigGetter with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/ray/healthindicators/config/IndicatorConfig$Colors with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/ray/healthindicators/config/IndicatorConfig$DisplayConditions with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/ray/healthindicators/config/IndicatorConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/ray/healthindicators/EntityHandler$EntityData with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/ray/healthindicators/EntityHandler with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/ray/healthindicators/IndicatorFormatter with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/ray/healthindicators/IndicatorRenderer with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/ray/healthindicators/mixin/NameTagMixin with maxs=true frames=true
+[Architectury Transformer DEBUG] Checking whether /holographic_health_indicators-common-common-refmap.json is a mixin config.
 [Architectury Transformer DEBUG] Checking whether /holographic_health_indicators.mixins.json is a mixin config.
-[Architectury Transformer DEBUG] Closed File Systems for C:\Users\Ray\AppData\Local\Temp\6699829920201175269.jar
+[Architectury Transformer DEBUG] Closed File Systems for C:\Users\Ray\AppData\Local\Temp\453521284738221558.jar
 [Architectury Transformer] Listening at C:\Users\Ray\Documents\ModDevNew\Holographic Health Indicators\holographic_health_indicators-1.20.4-fabric-neoforge-forge-template\common\build\devlibs\holographic_health_indicators-common-1.0.0-dev.jar
-[Architectury Transformer DEBUG] Temporary jar [C:\Users\Ray\AppData\Local\Temp\6699829920201175269.jar] contains packages: net.ray.healthindicators
+[Architectury Transformer DEBUG] Temporary jar [C:\Users\Ray\AppData\Local\Temp\453521284738221558.jar] contains packages: net.ray.healthindicators.config, net.ray.healthindicators.mixin, net.ray.healthindicators
 [Architectury Transformer DEBUG] Closed File Systems for C:\Users\Ray\Documents\ModDevNew\Holographic Health Indicators\holographic_health_indicators-1.20.4-fabric-neoforge-forge-template\common\build\devlibs\holographic_health_indicators-common-1.0.0-dev.jar
 [Architectury Transformer DEBUG] Classpath entry [C:\Users\Ray\Documents\ModDevNew\Holographic Health Indicators\holographic_health_indicators-1.20.4-fabric-neoforge-forge-template\fabric\build\resources\main] contains packages: 
-[Architectury Transformer DEBUG] Transforming from net/ray/healthindicators/ExampleMod.class to net/ray/healthindicators/ExampleMod.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Transforming from net/ray/healthindicators/config/IndicatorConfig.class to net/ray/healthindicators/config/IndicatorConfig.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing net/ray/healthindicators/ExampleMod with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/ray/healthindicators/ExampleMod in 6.118 ms
+[Architectury Transformer DEBUG] Writing net/ray/healthindicators/config/IndicatorConfig with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed net/ray/healthindicators/config/IndicatorConfig in 936.2 μs
+[Architectury Transformer DEBUG] Transforming from net/ray/healthindicators/config/IndicatorConfig$DisplayConditions.class to net/ray/healthindicators/config/IndicatorConfig$DisplayConditions.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing net/ray/healthindicators/config/IndicatorConfig$DisplayConditions with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed net/ray/healthindicators/config/IndicatorConfig$DisplayConditions in 582.4 μs
+[Architectury Transformer DEBUG] Transforming from net/ray/healthindicators/config/IndicatorConfig$Colors.class to net/ray/healthindicators/config/IndicatorConfig$Colors.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing net/ray/healthindicators/config/IndicatorConfig$Colors with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed net/ray/healthindicators/config/IndicatorConfig$Colors in 340.8 μs
+[Architectury Transformer DEBUG] Transforming from net/ray/healthindicators/config/ConfigGetter.class to net/ray/healthindicators/config/ConfigGetter.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing net/ray/healthindicators/config/ConfigGetter with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed net/ray/healthindicators/config/ConfigGetter in 464.5 μs
+[Architectury Transformer DEBUG] Transforming from net/ray/healthindicators/EntityHandler.class to net/ray/healthindicators/EntityHandler.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing net/ray/healthindicators/EntityHandler with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed net/ray/healthindicators/EntityHandler in 3.333 ms
+[Architectury Transformer DEBUG] Transforming from net/ray/healthindicators/IndicatorRenderer.class to net/ray/healthindicators/IndicatorRenderer.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing net/ray/healthindicators/IndicatorRenderer with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed net/ray/healthindicators/IndicatorRenderer in 724.9 μs
+[Architectury Transformer DEBUG] Transforming from net/ray/healthindicators/IndicatorFormatter.class to net/ray/healthindicators/IndicatorFormatter.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing net/ray/healthindicators/IndicatorFormatter with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed net/ray/healthindicators/IndicatorFormatter in 7.123 ms
+[Architectury Transformer DEBUG] Transforming from net/ray/healthindicators/ComponentUtilsParser.class to net/ray/healthindicators/ComponentUtilsParser.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing net/ray/healthindicators/ComponentUtilsParser with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed net/ray/healthindicators/ComponentUtilsParser in 963.3 μs
+[Architectury Transformer DEBUG] Transforming from net/ray/healthindicators/EntityHandler$EntityData.class to net/ray/healthindicators/EntityHandler$EntityData.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing net/ray/healthindicators/EntityHandler$EntityData with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed net/ray/healthindicators/EntityHandler$EntityData in 507.0 μs

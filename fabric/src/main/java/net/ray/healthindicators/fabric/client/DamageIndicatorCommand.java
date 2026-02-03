@@ -9,7 +9,7 @@ import net.fabricmc.fabric.api.client.command.v2.FabricClientCommandSource;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.network.chat.Component;
-import net.ray.BetterDamageIndicator.config.IndicatorConfig;
+import net.ray.healthindicators.config.IndicatorConfig;
 
 import java.util.function.Supplier;
 
@@ -17,7 +17,7 @@ import java.util.function.Supplier;
 public class DamageIndicatorCommand {
 
     public static void register(CommandDispatcher<FabricClientCommandSource> dispatcher) {
-        dispatcher.register(ClientCommandManager.literal("damageindicator")
+        dispatcher.register(ClientCommandManager.literal("healthindicator")
                 .executes(context -> {
                     Minecraft client = Minecraft.getInstance();
                     if (client.level == null) return 0;
