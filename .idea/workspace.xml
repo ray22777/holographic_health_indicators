@@ -4,25 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0dd6dce-1b7c-4fbb-9282-83459f6bac23" name="Changes" comment="1.21.1">
+    <list default="true" id="a0dd6dce-1b7c-4fbb-9282-83459f6bac23" name="Changes" comment="1.21.2-8">
       <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server___fabric__fabric.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server___fabric__fabric.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server___neoforge__neoforge.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server___neoforge__neoforge.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/common/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/run/.architectury-transformer/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/.architectury-transformer/debug.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/run/config/fabric/indigo-renderer.properties" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/config/fabric/indigo-renderer.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/run/data/fabricDefaultResourcePacks.dat" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/data/fabricDefaultResourcePacks.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/run/logs/debug-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/logs/debug-1.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/run/logs/debug-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/logs/debug-2.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/logs/debug.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/logs/latest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/src/main/java/net/ray/healthindicators/fabric/client/HolographicIndicatorCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/src/main/java/net/ray/healthindicators/fabric/client/HolographicIndicatorCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/neoforge/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/neoforge/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/neoforge/src/main/java/net/ray/healthindicators/neoforge/BetterDamageIndicator.java" beforeDir="false" afterPath="$PROJECT_DIR$/neoforge/src/main/java/net/ray/healthindicators/neoforge/HolographicHealthIndicators.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/neoforge/src/main/java/net/ray/healthindicators/neoforge/DamageIndicatorCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/neoforge/src/main/java/net/ray/healthindicators/neoforge/HealthIndicatorCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/neoforge/src/main/resources/META-INF/mods.toml" beforeDir="false" afterPath="$PROJECT_DIR$/neoforge/src/main/resources/META-INF/neoforge.mods.toml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +89,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="1.21.2" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -166,7 +151,7 @@
       <recent name="C:\Users\Ray\Documents\ModDevNew\Holographic Health Indicators\holographic_health_indicators-1.20.4-fabric-neoforge-forge-template\fabric\src\main\java\net\ray\healthindicators\fabric" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.holographic_health_indicators-1.20.4-fabric-neoforge-forge-template [:neoforge:build]">
+  <component name="RunManager" selected="Gradle.holographic_health_indicators-1.20.4-fabric-neoforge-forge-template [:fabric:build]">
     <configuration name="holographic_health_indicators-1.20.4-fabric-neoforge-forge-template [:fabric:build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -244,9 +229,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.holographic_health_indicators-1.20.4-fabric-neoforge-forge-template [:neoforge:build]" />
         <item itemvalue="Gradle.holographic_health_indicators-1.20.4-fabric-neoforge-forge-template [:fabric:build]" />
         <item itemvalue="Gradle.holographic_health_indicators-1.20.4-fabric-neoforge-forge-template [build]" />
+        <item itemvalue="Gradle.holographic_health_indicators-1.20.4-fabric-neoforge-forge-template [:neoforge:build]" />
+        <item itemvalue="Gradle.holographic_health_indicators-1.20.4-fabric-neoforge-forge-template [build]" />
+        <item itemvalue="Gradle.holographic_health_indicators-1.20.4-fabric-neoforge-forge-template [:neoforge:build]" />
       </list>
     </recent_temporary>
   </component>
@@ -289,12 +276,29 @@
       <option name="project" value="LOCAL" />
       <updated>1770371304766</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="1.21.1">
+      <option name="closed" value="true" />
+      <created>1770384636603</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1770384636603</updated>
+    </task>
+    <task id="LOCAL-00005" summary="1.21.2-8">
+      <option name="closed" value="true" />
+      <created>1770386749126</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1770386749126</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="push before major change" />
     <MESSAGE value="1.21.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.21.1" />
+    <MESSAGE value="1.21.2-8" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.21.2-8" />
   </component>
 </project>
