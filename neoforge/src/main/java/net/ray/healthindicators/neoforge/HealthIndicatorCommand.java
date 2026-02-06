@@ -8,18 +8,19 @@ import net.minecraft.commands.CommandSourceStack;
 import net.minecraft.commands.Commands;
 import net.minecraft.network.chat.Component;
 import net.neoforged.bus.api.SubscribeEvent;
+import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.neoforge.client.event.RegisterClientCommandsEvent;
 import net.ray.healthindicators.config.IndicatorConfig;
 
 import java.util.function.Supplier;
-
-public class DamageIndicatorCommand {
+@EventBusSubscriber(modid = "holographic_health_indicators", bus = EventBusSubscriber.Bus.GAME)
+public class HealthIndicatorCommand {
 
     @SubscribeEvent
     public static void onRegisterClientCommands(RegisterClientCommandsEvent event) {
         CommandDispatcher<CommandSourceStack> dispatcher = event.getDispatcher();
 
-        dispatcher.register(Commands.literal("damageindicator")
+        dispatcher.register(Commands.literal("healthindicator")
                 .executes(context -> {
                     Minecraft client = Minecraft.getInstance();
                     if (client.level == null) return 0;

@@ -4,25 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0dd6dce-1b7c-4fbb-9282-83459f6bac23" name="Changes" comment="push before major change">
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/holographic_health_indicators/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/holographic_health_indicators/lang/en_us.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neoforge/src/main/java/net/ray/healthindicators/neoforge/BetterDamageIndicator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neoforge/src/main/java/net/ray/healthindicators/neoforge/DamageIndicatorCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/forge/holographic_health_indicators.forge.main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/forge/holographic_health_indicators.forge.test.iml" beforeDir="false" />
+    <list default="true" id="a0dd6dce-1b7c-4fbb-9282-83459f6bac23" name="Changes" comment="1.21.1">
       <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server___fabric__fabric.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server___fabric__fabric.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server___forge__forge.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server___forge__forge.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server___neoforge__neoforge.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server___neoforge__neoforge.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/common/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/ray/healthindicators/IndicatorRenderer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/ray/healthindicators/config/IndicatorConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/ray/healthindicators/config/IndicatorConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fabric/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fabric/run/.architectury-transformer/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/.architectury-transformer/debug.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fabric/run/config/fabric/indigo-renderer.properties" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/config/fabric/indigo-renderer.properties" afterDir="false" />
@@ -31,17 +17,12 @@
       <change beforePath="$PROJECT_DIR$/fabric/run/logs/debug-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/logs/debug-2.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fabric/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/logs/debug.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fabric/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/logs/latest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/run/options.txt" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/options.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/src/main/java/net/ray/healthindicators/fabric/BetterDamageIndicator.java" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/src/main/java/net/ray/healthindicators/fabric/HolographicDamageIndicator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/src/main/java/net/ray/healthindicators/fabric/client/BetterDamageIndicatorClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/src/main/java/net/ray/healthindicators/fabric/client/HolographicIndicatorClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/src/main/java/net/ray/healthindicators/fabric/client/DamageIndicatorCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/src/main/java/net/ray/healthindicators/fabric/client/HolographicIndicatorCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/src/main/resources/fabric.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/src/main/resources/fabric.mod.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/forge/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/src/main/java/net/ray/healthindicators/fabric/client/HolographicIndicatorCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/src/main/java/net/ray/healthindicators/fabric/client/HolographicIndicatorCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/neoforge/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/neoforge/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/neoforge/src/main/java/net/ray/healthindicators/neoforge/ExampleModNeoForge.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/neoforge/src/main/resources/META-INF/mods.toml" beforeDir="false" afterPath="$PROJECT_DIR$/neoforge/src/main/resources/META-INF/mods.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/neoforge/src/main/java/net/ray/healthindicators/neoforge/BetterDamageIndicator.java" beforeDir="false" afterPath="$PROJECT_DIR$/neoforge/src/main/java/net/ray/healthindicators/neoforge/HolographicHealthIndicators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/neoforge/src/main/java/net/ray/healthindicators/neoforge/DamageIndicatorCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/neoforge/src/main/java/net/ray/healthindicators/neoforge/HealthIndicatorCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/neoforge/src/main/resources/META-INF/mods.toml" beforeDir="false" afterPath="$PROJECT_DIR$/neoforge/src/main/resources/META-INF/neoforge.mods.toml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +55,12 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="holographic_health_indicators" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="holographic_health_indicators" type="f1a62948:ProjectNode" />
                 <item name="fabric" type="2d1252cf:ModuleNode" />
               </path>
               <path>
@@ -99,6 +86,13 @@
                 <item name="holographic_health_indicators" type="f1a62948:ProjectNode" />
                 <item name="neoforge" type="2d1252cf:ModuleNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="holographic_health_indicators" type="f1a62948:ProjectNode" />
+                <item name="neoforge" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -139,37 +133,40 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Gradle.Download Sources.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.holographic_health_indicators-1.20.4-fabric-neoforge-forge-template [:fabric:build].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.holographic_health_indicators-1.20.4-fabric-neoforge-forge-template [:fabric:dev.architectury.transformer.TransformerRuntime.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.holographic_health_indicators-1.20.4-fabric-neoforge-forge-template [:neoforge:dev.architectury.transformer.TransformerRuntime.main()].executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;1.21.10&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Ray/Documents/ModDevNew/Holographic Health Indicators/holographic_health_indicators-1.20.4-fabric-neoforge-forge-template/neoforge/src/main/java/net/ray/healthindicators/neoforge&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.Download Sources.executor": "Run",
+    "Gradle.holographic_health_indicators-1.20.4-fabric-neoforge-forge-template [:fabric:build].executor": "Run",
+    "Gradle.holographic_health_indicators-1.20.4-fabric-neoforge-forge-template [:fabric:dev.architectury.transformer.TransformerRuntime.main()].executor": "Run",
+    "Gradle.holographic_health_indicators-1.20.4-fabric-neoforge-forge-template [:neoforge:build].executor": "Run",
+    "Gradle.holographic_health_indicators-1.20.4-fabric-neoforge-forge-template [:neoforge:dev.architectury.transformer.TransformerRuntime.main()].executor": "Run",
+    "Gradle.holographic_health_indicators-1.20.4-fabric-neoforge-forge-template [build].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "1.21.1",
+    "ignore.virus.scanning.warn.message": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Ray/Documents/ModDevNew/Holographic Health Indicators/holographic_health_indicators-1.20.4-fabric-neoforge-forge-template/neoforge/src/main/resources/META-INF",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "to.speed.mode.migration.done": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Ray\Documents\ModDevNew\Holographic Health Indicators\holographic_health_indicators-1.20.4-fabric-neoforge-forge-template\neoforge\src\main\resources\META-INF" />
       <recent name="C:\Users\Ray\Documents\ModDevNew\Holographic Health Indicators\holographic_health_indicators-1.20.4-fabric-neoforge-forge-template\neoforge\src\main\java\net\ray\healthindicators\neoforge" />
       <recent name="C:\Users\Ray\Documents\ModDevNew\Holographic Health Indicators\holographic_health_indicators-1.20.4-fabric-neoforge-forge-template\common\src\main\resources" />
       <recent name="C:\Users\Ray\Documents\ModDevNew\Holographic Health Indicators\holographic_health_indicators-1.20.4-fabric-neoforge-forge-template\fabric\src\main\java\net\ray\healthindicators\fabric" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Minecraft Client (:neoforge)">
+  <component name="RunManager" selected="Gradle.holographic_health_indicators-1.20.4-fabric-neoforge-forge-template [:neoforge:build]">
     <configuration name="holographic_health_indicators-1.20.4-fabric-neoforge-forge-template [:fabric:build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -195,9 +192,61 @@
       <GradleCoverageDisabled>false</GradleCoverageDisabled>
       <method v="2" />
     </configuration>
+    <configuration name="holographic_health_indicators-1.20.4-fabric-neoforge-forge-template [:neoforge:build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":neoforge:build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <GradleProfilingDisabled>false</GradleProfilingDisabled>
+      <GradleCoverageDisabled>false</GradleCoverageDisabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="holographic_health_indicators-1.20.4-fabric-neoforge-forge-template [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <GradleProfilingDisabled>false</GradleProfilingDisabled>
+      <GradleCoverageDisabled>false</GradleCoverageDisabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.holographic_health_indicators-1.20.4-fabric-neoforge-forge-template [:neoforge:build]" />
         <item itemvalue="Gradle.holographic_health_indicators-1.20.4-fabric-neoforge-forge-template [:fabric:build]" />
+        <item itemvalue="Gradle.holographic_health_indicators-1.20.4-fabric-neoforge-forge-template [build]" />
       </list>
     </recent_temporary>
   </component>
@@ -224,11 +273,28 @@
       <option name="project" value="LOCAL" />
       <updated>1770116492849</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="1.21.1">
+      <option name="closed" value="true" />
+      <created>1770371217108</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1770371217108</updated>
+    </task>
+    <task id="LOCAL-00003" summary="1.21.1">
+      <option name="closed" value="true" />
+      <created>1770371304765</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1770371304766</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="push before major change" />
-    <option name="LAST_COMMIT_MESSAGE" value="push before major change" />
+    <MESSAGE value="1.21.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.21.1" />
   </component>
 </project>

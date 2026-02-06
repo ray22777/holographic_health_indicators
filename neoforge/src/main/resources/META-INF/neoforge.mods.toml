@@ -1,42 +1,42 @@
 modLoader = "javafml"
-loaderVersion = "[34,)"
+loaderVersion = "[2,)"
 #issueTrackerURL = ""
 license = "MIT"
 
 [[mods]]
 modId = "holographic_health_indicators"
-version = "${version}"
-displayName = "Better Damage Indicator"
+version = "1.0.0"
+displayName = "Holographic Health Indicators"
 authors = "ray"
 description = '''
-Add client-sided, customizable and animated damage indicators when entities take damage/heal.
+Add client-sided, highly customizable, health indicators for entities.
 '''
 logoFile = "assets/holographic_health_indicators/icon.png"
 
 [[dependencies.holographic_health_indicators]]
 modId = "neoforge"
-type = "required"
-versionRange = "[20.4,)"
+mandatory = true
+versionRange = "[21.1,)"
 ordering = "NONE"
 side = "BOTH"
-
 [[dependencies.holographic_health_indicators]]
 modId = "minecraft"
-type = "required"
-versionRange = "[1.20.4,)"
+mandatory = true
+versionRange = "[1.21.1,)"
 ordering = "NONE"
 side = "BOTH"
-[[dependencies.better_damage_indicator]]
+[[dependencies.holographic_health_indicators]]
 modId = "cloth_config"
-type = "required"
+mandatory = true
 versionRange = "[11.1.118,)"
 ordering = "NONE"
 side = "CLIENT"
-mandatory = true
-[[dependencies.better_damage_indicator]]
+[[dependencies.holographic_health_indicators]]
 modId = "hologram_api"
-type = "required"
-versionRange = "[1.0.0,)"
+mandatory = true
+versionRange = "[1.1.0,)"
 ordering = "NONE"
 side = "CLIENT"
-mandatory = true
+
+[[mixins]]
+config = "better_damage_indicator.mixins.json"
