@@ -14,14 +14,14 @@ import net.ray.healthindicators.config.IndicatorConfig;
 import java.util.function.Supplier;
 
 @Environment(EnvType.CLIENT)
-public class DamageIndicatorCommand {
+public class HolographicIndicatorCommand {
 
     public static void register(CommandDispatcher<FabricClientCommandSource> dispatcher) {
         dispatcher.register(ClientCommandManager.literal("healthindicator")
                 .executes(context -> {
                     Minecraft client = Minecraft.getInstance();
                     if (client.level == null) return 0;
-                    client.tell(() -> {
+                    client.schedule(() -> {
                         try {
                             Supplier<Screen> screenSupplier = AutoConfig.getConfigScreen(
                                     IndicatorConfig.class,

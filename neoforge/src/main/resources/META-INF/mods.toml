@@ -1,17 +1,17 @@
 modLoader = "javafml"
-loaderVersion = "[2,)"
+loaderVersion = "[34,)"
 #issueTrackerURL = ""
-license = "Insert License Here"
+license = "MIT"
 
 [[mods]]
 modId = "holographic_health_indicators"
 version = "${version}"
-displayName = "Holographic Health Indicators"
-authors = "Me!"
+displayName = "Better Damage Indicator"
+authors = "ray"
 description = '''
-This is an example description! Tell everyone what your mod is about!
+Add client-sided, customizable and animated damage indicators when entities take damage/heal.
 '''
-#logoFile = ""
+logoFile = "assets/holographic_health_indicators/icon.png"
 
 [[dependencies.holographic_health_indicators]]
 modId = "neoforge"
@@ -26,6 +26,17 @@ type = "required"
 versionRange = "[1.20.4,)"
 ordering = "NONE"
 side = "BOTH"
-
-[[mixins]]
-config = "holographic_health_indicators.mixins.json"
+[[dependencies.better_damage_indicator]]
+modId = "cloth_config"
+type = "required"
+versionRange = "[11.1.118,)"
+ordering = "NONE"
+side = "CLIENT"
+mandatory = true
+[[dependencies.better_damage_indicator]]
+modId = "hologram_api"
+type = "required"
+versionRange = "[1.0.0,)"
+ordering = "NONE"
+side = "CLIENT"
+mandatory = true

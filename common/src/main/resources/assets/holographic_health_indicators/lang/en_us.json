@@ -1,0 +1,58 @@
+{
+  "text.autoconfig.better-damage-indicator.title": "Holographic Health Indicators",
+  "text.autoconfig.better-damage-indicator.option.enableIndicator": "Enable Indicator",
+  "text.autoconfig.better-damage-indicator.option.enableIndicator.@Tooltip": "Enable health indicators",
+
+  "text.autoconfig.better-damage-indicator.option.indicatorFormat": "Indicator Format",
+  "text.autoconfig.better-damage-indicator.option.indicatorFormat.@Tooltip[0]": "Formatting for health indicator text,",
+  "text.autoconfig.better-damage-indicator.option.indicatorFormat.@Tooltip[1]": "supporting the use of minecraft color codes (e.g. &a).",
+  "text.autoconfig.better-damage-indicator.option.indicatorFormat.@Tooltip[2]": "Placeholders: {maxHP} {HP} {name}.",
+
+  "text.autoconfig.better-damage-indicator.option.displayConditions": "Display Conditions",
+
+  "text.autoconfig.better-damage-indicator.option.displayConditions.onDamage": "On Damage",
+  "text.autoconfig.better-damage-indicator.option.displayConditions.onDamage.@Tooltip": "Show only when you damage the entity.",
+
+  "text.autoconfig.better-damage-indicator.option.displayConditions.onAim": "On Aim",
+  "text.autoconfig.better-damage-indicator.option.displayConditions.onAim.@Tooltip": "Show only when you look at the entity.",
+
+  "text.autoconfig.better-damage-indicator.option.displayConditions.alwaysOn": "Always On",
+  "text.autoconfig.better-damage-indicator.option.displayConditions.alwaysOn.@Tooltip": "Always shows when inside render distance.",
+
+  "text.autoconfig.better-damage-indicator.option.displayConditions.damageTicks": "Damage Ticks",
+  "text.autoconfig.better-damage-indicator.option.displayConditions.damageTicks.@Tooltip": "How long after damage to still show.",
+
+  "text.autoconfig.better-damage-indicator.option.displayConditions.onlyDamaged": "Only Damaged",
+  "text.autoconfig.better-damage-indicator.option.displayConditions.onlyDamaged.@Tooltip": "Show only if the entity is not a max health.(Damaged)",
+
+  "text.autoconfig.better-damage-indicator.option.shadow": "Shadow",
+  "text.autoconfig.better-damage-indicator.option.shadow.@Tooltip": "Enables shadow for texts.",
+
+  "text.autoconfig.better-damage-indicator.option.renderDistance": "Render Distance",
+  "text.autoconfig.better-damage-indicator.option.renderDistance.@Tooltip": "Changes how far damage indicators will be shown.",
+
+  "text.autoconfig.better-damage-indicator.option.decimal": "Decimal",
+  "text.autoconfig.better-damage-indicator.option.decimal.@Tooltip": "How many trailing decimals.",
+
+  "text.autoconfig.better-damage-indicator.option.offset": "Offset",
+  "text.autoconfig.better-damage-indicator.option.offset.@Tooltip": "How much to offset indicator upwards in blocks.",
+
+  "text.autoconfig.better-damage-indicator.option.disableNametag": "Disable Nametag",
+  "text.autoconfig.better-damage-indicator.option.disableNametag.@Tooltip": "Disable nametag to avoid interference.",
+
+  "text.autoconfig.better-damage-indicator.option.indicatorScale": "Indicator Scale",
+  "text.autoconfig.better-damage-indicator.option.indicatorScale.@Tooltip": "How big the damage indicator will be.",
+
+  "text.autoconfig.better-damage-indicator.option.healthColor": "Health Color",
+
+
+  "text.autoconfig.better-damage-indicator.option.healthColor.full": "Full",
+  "text.autoconfig.better-damage-indicator.option.healthColor.threefourths": "Three Fourths",
+  "text.autoconfig.better-damage-indicator.option.healthColor.half": "Half",
+  "text.autoconfig.better-damage-indicator.option.healthColor.quarter": "Quarter",
+
+  "text.autoconfig.better-damage-indicator.option.renderInfront": "Render Infront",
+  "text.autoconfig.better-damage-indicator.option.renderInfront.@Tooltip[0]": "Renders the health indicator over everything,",
+  "text.autoconfig.better-damage-indicator.option.renderInfront.@Tooltip[1]": "including blocks and entities.",
+  "text.autoconfig.better-damage-indicator.option.renderInfront.@Tooltip[2]": "(BUGGY in <1.21.10)"
+}

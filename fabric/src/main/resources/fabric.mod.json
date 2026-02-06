@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "id": "better_damage_indicator",
+  "id": "holographic_health_indicators",
   "version": "${version}",
-  "name": "Better Damage Indicator",
+  "name": "Holographic Health Indicators",
   "description": "Add client-sided, highly customizable, health indicators for entities.",
   "authors": [
     "ray"
@@ -15,10 +15,10 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.ray.healthindicators.fabric.BetterDamageIndicator"
+      "net.ray.healthindicators.fabric.HolographicDamageIndicator"
     ],
     "client": [
-      "net.ray.healthindicators.fabric.client.BetterDamageIndicatorClient"
+      "net.ray.healthindicators.fabric.client.HolographicIndicatorClient"
     ],
     "modmenu": [
       "net.ray.healthindicators.fabric.ModMenuIntegration"

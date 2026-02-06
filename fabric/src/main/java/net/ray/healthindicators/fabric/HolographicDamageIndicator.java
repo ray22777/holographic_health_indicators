@@ -10,7 +10,7 @@ import net.ray.healthindicators.config.IndicatorConfig;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class BetterDamageIndicator implements ModInitializer {
+public class HolographicDamageIndicator implements ModInitializer {
     public static final String MOD_ID = "holographic_health_indicators";
     public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 

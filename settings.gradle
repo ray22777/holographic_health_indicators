@@ -11,5 +11,4 @@ rootProject.name = 'holographic_health_indicators'
 
 include 'common'
 include 'fabric'
-include 'forge'
 include 'neoforge'
