@@ -39,4 +39,4 @@ ordering = "NONE"
 side = "CLIENT"
 
 [[mixins]]
-config = "better_damage_indicator.mixins.json"
+config = "holographic_health_indicators.mixins.json"

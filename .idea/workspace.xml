@@ -5,9 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0dd6dce-1b7c-4fbb-9282-83459f6bac23" name="Changes" comment="1.21.2-8">
+      <change afterPath="$PROJECT_DIR$/neoforge/src/main/java/net/ray/healthindicators/neoforge/EntityTicker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/neoforge/holographic_health_indicators.neoforge.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/neoforge/holographic_health_indicators.neoforge.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/neoforge/holographic_health_indicators.neoforge.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/neoforge/holographic_health_indicators.neoforge.test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server___fabric__fabric.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server___fabric__fabric.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server___neoforge__neoforge.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server___neoforge__neoforge.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/resources/holographic_health_indicators.mixins.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/holographic_health_indicators.mixins.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/neoforge/src/main/resources/META-INF/neoforge.mods.toml" beforeDir="false" afterPath="$PROJECT_DIR$/neoforge/src/main/resources/META-INF/neoforge.mods.toml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,31 +124,31 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.Download Sources.executor": "Run",
-    "Gradle.holographic_health_indicators-1.20.4-fabric-neoforge-forge-template [:fabric:build].executor": "Run",
-    "Gradle.holographic_health_indicators-1.20.4-fabric-neoforge-forge-template [:fabric:dev.architectury.transformer.TransformerRuntime.main()].executor": "Run",
-    "Gradle.holographic_health_indicators-1.20.4-fabric-neoforge-forge-template [:neoforge:build].executor": "Run",
-    "Gradle.holographic_health_indicators-1.20.4-fabric-neoforge-forge-template [:neoforge:dev.architectury.transformer.TransformerRuntime.main()].executor": "Run",
-    "Gradle.holographic_health_indicators-1.20.4-fabric-neoforge-forge-template [build].executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "1.21.1",
-    "ignore.virus.scanning.warn.message": "true",
-    "junie.onboarding.icon.badge.shown": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Ray/Documents/ModDevNew/Holographic Health Indicators/holographic_health_indicators-1.20.4-fabric-neoforge-forge-template/neoforge/src/main/resources/META-INF",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "to.speed.mode.migration.done": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.Download Sources.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.holographic_health_indicators-1.20.4-fabric-neoforge-forge-template [:fabric:build].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.holographic_health_indicators-1.20.4-fabric-neoforge-forge-template [:fabric:dev.architectury.transformer.TransformerRuntime.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.holographic_health_indicators-1.20.4-fabric-neoforge-forge-template [:neoforge:build].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.holographic_health_indicators-1.20.4-fabric-neoforge-forge-template [:neoforge:dev.architectury.transformer.TransformerRuntime.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.holographic_health_indicators-1.20.4-fabric-neoforge-forge-template [build].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;1.21.1&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Ray/Documents/ModDevNew/Holographic Health Indicators/holographic_health_indicators-1.20.4-fabric-neoforge-forge-template/neoforge/src/main/resources/META-INF&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Ray\Documents\ModDevNew\Holographic Health Indicators\holographic_health_indicators-1.20.4-fabric-neoforge-forge-template\neoforge\src\main\resources\META-INF" />
@@ -151,7 +157,7 @@
       <recent name="C:\Users\Ray\Documents\ModDevNew\Holographic Health Indicators\holographic_health_indicators-1.20.4-fabric-neoforge-forge-template\fabric\src\main\java\net\ray\healthindicators\fabric" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.holographic_health_indicators-1.20.4-fabric-neoforge-forge-template [:fabric:build]">
+  <component name="RunManager" selected="Gradle.holographic_health_indicators-1.20.4-fabric-neoforge-forge-template [:neoforge:build]">
     <configuration name="holographic_health_indicators-1.20.4-fabric-neoforge-forge-template [:fabric:build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -229,9 +235,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.holographic_health_indicators-1.20.4-fabric-neoforge-forge-template [:neoforge:build]" />
         <item itemvalue="Gradle.holographic_health_indicators-1.20.4-fabric-neoforge-forge-template [:fabric:build]" />
         <item itemvalue="Gradle.holographic_health_indicators-1.20.4-fabric-neoforge-forge-template [build]" />
-        <item itemvalue="Gradle.holographic_health_indicators-1.20.4-fabric-neoforge-forge-template [:neoforge:build]" />
         <item itemvalue="Gradle.holographic_health_indicators-1.20.4-fabric-neoforge-forge-template [build]" />
         <item itemvalue="Gradle.holographic_health_indicators-1.20.4-fabric-neoforge-forge-template [:neoforge:build]" />
       </list>
