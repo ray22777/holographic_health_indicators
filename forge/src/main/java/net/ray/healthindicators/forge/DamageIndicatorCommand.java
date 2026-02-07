@@ -1,27 +1,33 @@
-package net.ray.healthindicators.fabric.client;
+package net.ray.healthindicators.forge;
 
 import com.mojang.brigadier.CommandDispatcher;
 import me.shedaniel.autoconfig.AutoConfig;
-import net.fabricmc.api.EnvType;
-import net.fabricmc.api.Environment;
-import net.fabricmc.fabric.api.client.command.v2.ClientCommandManager;
-import net.fabricmc.fabric.api.client.command.v2.FabricClientCommandSource;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.screens.Screen;
+import net.minecraft.commands.CommandSourceStack;
+import net.minecraft.commands.Commands;
 import net.minecraft.network.chat.Component;
+import net.minecraftforge.client.event.RegisterClientCommandsEvent;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.fml.common.Mod;
 import net.ray.healthindicators.config.IndicatorConfig;
 
 import java.util.function.Supplier;
 
-@Environment(EnvType.CLIENT)
-public class HolographicIndicatorCommand {
+// Use NeoForge's EventBusSubscriber
+@Mod.EventBusSubscriber(modid = "holographic_health_indicators", bus = Mod.EventBusSubscriber.Bus.FORGE)
+public class DamageIndicatorCommand {
 
-    public static void register(CommandDispatcher<FabricClientCommandSource> dispatcher) {
-        dispatcher.register(ClientCommandManager.literal("healthindicator")
+    @SubscribeEvent
+    public static void onRegisterClientCommands(RegisterClientCommandsEvent event) {
+        CommandDispatcher<CommandSourceStack> dispatcher = event.getDispatcher();
+
+        dispatcher.register(Commands.literal("healthindicator")
                 .executes(context -> {
                     Minecraft client = Minecraft.getInstance();
                     if (client.level == null) return 0;
-                    client.tell(() -> {
+
+                    client.execute(() -> {
                         try {
                             Supplier<Screen> screenSupplier = AutoConfig.getConfigScreen(
                                     IndicatorConfig.class,
@@ -32,10 +38,12 @@ public class HolographicIndicatorCommand {
 
                         } catch (Exception e) {
                             System.err.println("Failed to open config: " + e);
-                            client.player.displayClientMessage(
-                                    Component.literal("Error while opening config"),
-                                    false
-                            );
+                            if (client.player != null) {
+                                client.player.displayClientMessage(
+                                        Component.literal("Error while opening config"),
+                                        false
+                                );
+                            }
                         }
                     });
 

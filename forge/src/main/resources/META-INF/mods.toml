@@ -1,28 +1,43 @@
 modLoader = "javafml"
-loaderVersion = "[49,)"
+loaderVersion = "[34,)"
 #issueTrackerURL = ""
-license = "Insert License Here"
+license = "MIT"
 
 [[mods]]
 modId = "holographic_health_indicators"
 version = "${version}"
 displayName = "Holographic Health Indicators"
-authors = "Me!"
+authors = "ray"
 description = '''
-This is an example description! Tell everyone what your mod is about!
+Add client-sided, highly customizable, health indicators for entities.
 '''
-#logoFile = ""
+logoFile = "assets/holographic_health_indicators/icon.png"
+
 
 [[dependencies.holographic_health_indicators]]
 modId = "forge"
 mandatory = true
-versionRange = "[49,)"
+versionRange = "[34,)"
 ordering = "NONE"
 side = "BOTH"
 
 [[dependencies.holographic_health_indicators]]
 modId = "minecraft"
 mandatory = true
-versionRange = "[1.20.4,)"
+versionRange = "[1.20.1,)"
 ordering = "NONE"
 side = "BOTH"
+[[dependencies.holographic_health_indicators]]
+modId = "cloth_config"
+type = "required"
+versionRange = "[11.1.118,)"
+ordering = "NONE"
+side = "CLIENT"
+mandatory = true
+[[dependencies.holographic_health_indicators]]
+modId = "hologram_api"
+type = "required"
+versionRange = "[1.1.0,)"
+ordering = "NONE"
+side = "CLIENT"
+mandatory = true
