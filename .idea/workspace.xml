@@ -4,16 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0dd6dce-1b7c-4fbb-9282-83459f6bac23" name="Changes" comment="1.21.2-8">
-      <change afterPath="$PROJECT_DIR$/neoforge/src/main/java/net/ray/healthindicators/neoforge/EntityTicker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/neoforge/holographic_health_indicators.neoforge.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/neoforge/holographic_health_indicators.neoforge.main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/neoforge/holographic_health_indicators.neoforge.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/neoforge/holographic_health_indicators.neoforge.test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server___fabric__fabric.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server___fabric__fabric.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server___neoforge__neoforge.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server___neoforge__neoforge.xml" afterDir="false" />
+    <list default="true" id="a0dd6dce-1b7c-4fbb-9282-83459f6bac23" name="Changes" comment="updated neoforge 1.21.1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/resources/holographic_health_indicators.mixins.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/holographic_health_indicators.mixins.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/neoforge/src/main/resources/META-INF/neoforge.mods.toml" beforeDir="false" afterPath="$PROJECT_DIR$/neoforge/src/main/resources/META-INF/neoforge.mods.toml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,6 +83,13 @@
         </projects_view>
       </state>
     </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -298,13 +297,22 @@
       <option name="project" value="LOCAL" />
       <updated>1770386749126</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="updated neoforge 1.21.1">
+      <option name="closed" value="true" />
+      <created>1770427887970</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1770427887970</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="push before major change" />
     <MESSAGE value="1.21.1" />
     <MESSAGE value="1.21.2-8" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.21.2-8" />
+    <MESSAGE value="updated neoforge 1.21.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated neoforge 1.21.1" />
   </component>
 </project>
